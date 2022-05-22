@@ -53,5 +53,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+default:
+  - scope:
+      path: ""
+    values:
+      toc: true
+
 # deployment
 host: 0.0.0.0
